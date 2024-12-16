@@ -1,0 +1,77 @@
+/* Glass effect container */
+.glass-section {
+  margin: 2rem auto;
+  padding: 2rem;
+  width: 90%;
+  max-width: 900px;
+  backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Fallback for browsers that don't support backdrop-filter */
+.glass-section {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Profile picture styling */
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid white;
+  margin-bottom: 1rem;
+}
+
+/* About Me text */
+.about-text h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.about-text p {
+  color: #ddd;
+  font-size: 1.2rem;
+}
+
+/* Project list styling */
+.project-list {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.project-list li {
+  margin-bottom: 1rem;
+}
+
+.project-list a {
+  color: #ff6f61;
+  text-decoration: none;
+  font-size: 1.2rem;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+.project-list a:hover {
+  text-decoration: underline;
+  color: #ff3366;
+}
+
+/* Accomplishments list styling */
+.accomplishments-list {
+  list-style-type: square;
+  color: #ddd;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  padding-left: 1.5rem;
+}
+
+.accomplishments-list li {
+  margin-bottom: 0.5rem;
+}
